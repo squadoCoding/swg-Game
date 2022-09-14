@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#game {
+  padding: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#choices {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  margin-top: 26px;
+}
+
+.choice {
+  width: 25%;
+  padding: 15px;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: rgb(82, 82, 116);
+  font-size: 2rem;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.choice:hover {
+  background-color: rgb(43, 43, 223);
+}
+
+#alertWinMsg {
+  padding: 15px 20px;
+  font-size: 1.3rem;
+}
+
+.success {
+  color: darkgreen;
+  border: 3px solid darkgreen;
+  background-color: rgb(196 244 202);
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#alertDismiss {
+  padding: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+#alertDismiss:hover {
+  color: yellow;
+}
+
+.danger {
+  color: red;
+  border: 3px solid red;
+  background-color: rgb(237, 186, 177);
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  transition: 0.3s background-color, color;
+}
+
+.btn:hover {
+  background-color: white;
+  color: blueviolet;
+}
+
+#genScore {
+  display: block;
+  margin: auto;
+}
