@@ -53,8 +53,7 @@ const mainLog = () => {
     gameAlert("s", "You win!! computer choosed SNAKE.");
     score++;
   } else if (userCh == "g" && compCh == "w") {
-    gameAlert("s", "You win!! computer choosed WATER.");
-    score++;
+    gameAlert("d", "Oh no! Computer choosed WATER, so it is the winner...");
   }
   console.log(compCh, userCh);
   // Generating a new random choice for the computer
